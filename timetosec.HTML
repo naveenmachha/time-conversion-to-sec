@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="timetosec.CSS"/>
+    <script type="javascript" src="timetosec.JS"></script>
+</head>
+
+<body>
+    <div class="container time-converter-bg-container p-5">
+        <div class="row" id="rowContainer">
+            <h1 class="col-12 time-converter-heading pt-4">Time Converter</h1>
+            <p class="col-12 enter-para">Enter hours and minutes values to convert into seconds</p>
+            <label for="hoursInput" class="col-12 input-heading">Hours*</label>
+            <input class="col-12 input-box" id="hoursInput" type="text" />
+            <label for="minutesInput" class="col-12 input-heading mt-3">Minutes*</label>
+            <input class="col-12 input-box" id="minutesInput" type="text" />
+            <div class="col-12">
+                <button class="mt-3 convert-btn" id="convertBtn">Convert to Seconds</button>
+            </div>
+            <p class="col-12 error-msg mt-2" id="errorMsg"></p>
+            <p class="ans-btn mb-5 text-center p-1 ml-3" id="timeInSeconds"></p>
+        </div>
+    </div>
+</body>
+
+</html>
